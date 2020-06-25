@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --passWithNoTests",
     "lint": "eslint ./modules",
     "format": "prettier --write \"**/*.+(js|jsx|json)\""
   },
